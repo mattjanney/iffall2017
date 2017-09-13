@@ -1,0 +1,69 @@
+/*div, a, p, body, html{
+	color:red;
+}*/
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	/*color: #ff0000;
+	letter-spacing: -.5em;
+	line-height: 2;
+	font-style: italic;
+	text-decoration: underline;
+	text-indent: 100px;
+	text-indent: 50%;
+	text-align: center;
+	text-transform: uppercase;*/
+	/*text indent by 50% of the package (aka site)*/
+}
+p{
+	font-size: ;
+}
+
+	.marginalia{
+		font-size: 14px;
+		color: (128,128,128,.8);
+	}
+
+	.header{
+		color:gray;
+	}
+
+	.bold{
+		font-weight: 700;
+	}
+
+	.italic{
+		font-style: italic;
+	}
+
+	.underline{
+		text-decoration: underline;
+	}
+
+	.line-through {
+			text-decoration: line-through;
+	}
+
+	.overline{
+			text-decoration: overline;
+	}
+
+	.uppercase{
+			text-transform: uppercase;
+	}
+
+	.lowercase{
+		text-transform: lowercase;
+	}
+
+	.capitalize{
+		text-transform: capitalize;
+	}
+
+	.tracked{
+		letter-spacing:.3em
+	}
+
+	.tight{
+		letter-spacing:-.06em
+	}
