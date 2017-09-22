@@ -1,0 +1,34 @@
+body {
+	background-color: lightsteelblue;
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+	line-height: 1.5;
+}
+div {
+	background-repeat: repeat-x;
+}
+	.title {
+		color: firebrick;
+		font-size: 4em;
+		font-family: 'Anton', sans-serif;
+	}
+
+	.subtitle {
+		color: darkslategray;
+	}
+
+	.mychain {
+		font-family: 'Anton', sans-serif;
+		color: firebrick;
+		font-size: 2em;
+	}	
+
+	.chorus {
+		font-family: 'Anton', sans-serif;
+	}
+
+	.marginalia{
+		font-size: .25em;
+		color: maroon;
+		font-family: 'Anton', sans-serif;
+	}
