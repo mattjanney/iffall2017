@@ -1,0 +1,820 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Buttons &mdash; James Fawcett</title>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css'>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+
+
+		
+		<style>
+
+			body {
+				color: #333;
+				font-family: 'Open Sans', sans-serif;
+				margin: 0;
+				padding: 0;
+				}
+
+			#main_content {
+				margin: 40px;
+			}
+
+			h1 {
+			 	font-size: 30px;
+			 	margin-bottom: 40px;
+			}
+
+			.button_container {
+				border: 1px solid #ddd;
+				margin: 0 10px 10px 0;
+				padding: 20px;
+				width: 300px;
+				height: 300px;
+				float: left;
+				overflow: hidden;
+				box-sizing: border-box;
+				text-align: center;
+			}
+
+
+			a#btn_coke {
+				display: inline-block;
+				height: 202px;
+				box-sizing: border-box;
+				border-radius: 14px;
+				margin: auto;
+				margin-top: 24px;
+				padding: 17px 40px 0 40px;
+				background-color: #fe001a;
+				border: 2px solid #fe001a;
+				color: #fff;
+				font-size: 58px;
+				font-family: 'Lobster', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_coke:hover {
+				background-color: white;
+				border: 2px solid #fe001a;
+				color: #fe001a;
+				text-shadow: 1px 1px 2px rgba(141, 144, 150, 1);
+
+			}
+
+			a#btn_apple {
+				display: inline-block;
+				margin:auto;
+				margin-top: 58px;
+				padding: 43px 42px;
+				background-color: #ffffff;
+				color: #999999;
+				font-family: 'Montserrat', sans-serif;
+				font-size: 43px;
+				font-weight: normal;
+                box-shadow: 4px 4px 18px 0px rgba(50, 50, 50, 0.75);
+			}
+
+			a#btn_apple:hover {
+				color: #ffffff;
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f5f6f6+0,dbdce2+21,b8bac6+49,dddfe3+80,f5f6f6+100;Grey+Pipe */
+                background: #f5f6f6;
+                background: -moz-linear-gradient(top,  #f5f6f6 0%, #dbdce2 21%, #b8bac6 49%, #dddfe3 80%, #f5f6f6 100%); /* FF3.6-15 */
+                background: -webkit-linear-gradient(top,  #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* Chrome10-25,Safari5.1-6 */
+                background: linear-gradient(to bottom,  #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=0 ); /* IE6-9 */
+
+				text-shadow: 3px 3px 2px rgba(141, 144, 150, 1);
+			}
+
+			a#btn_ibm {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 30px 0 30px;
+				background-color: #56cdf1;
+				color: #fff;
+				font-size: 18px;
+				font-family: 'Patua One', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d8e0de+0,aebfbc+22,99afab+33,8ea6a2+50,829d98+67,4e5c5a+82,0e0e0e+100;Grey+3D */
+				background: #d8e0de; /* Old browsers */
+				background: -moz-linear-gradient(top, #d8e0de 0%, #aebfbc 22%, #99afab 33%, #8ea6a2 50%, #829d98 67%, #4e5c5a 82%, #0e0e0e 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(top, #d8e0de 0%,#aebfbc 22%,#99afab 33%,#8ea6a2 50%,#829d98 67%,#4e5c5a 82%,#0e0e0e 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to bottom, #d8e0de 0%,#aebfbc 22%,#99afab 33%,#8ea6a2 50%,#829d98 67%,#4e5c5a 82%,#0e0e0e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8e0de', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+			}
+
+			a#btn_ibm:hover {
+				font-family: 'Patua One'
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0e0e0e+0,4e5c5a+18,829d98+33,8ea6a2+50,99afab+67,aebfbc+78,d8e0de+100 */
+				background: #0e0e0e; /* Old browsers */
+				background: -moz-linear-gradient(top,  #0e0e0e 0%, #4e5c5a 18%, #829d98 33%, #8ea6a2 50%, #99afab 67%, #aebfbc 78%, #d8e0de 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(top,  #0e0e0e 0%,#4e5c5a 18%,#829d98 33%,#8ea6a2 50%,#99afab 67%,#aebfbc 78%,#d8e0de 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to bottom,  #0e0e0e 0%,#4e5c5a 18%,#829d98 33%,#8ea6a2 50%,#99afab 67%,#aebfbc 78%,#d8e0de 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0e0e', endColorstr='#d8e0de',GradientType=0 ); /* IE6-9 */
+				text-shadow: 3px 3px 7px rgba(141, 144, 150, 0.83);
+
+			}
+
+			a#btn_nerf {
+				display: inline-block;
+				height: 126px;
+				box-sizing: border-box;
+				border-radius: 14px;
+				margin: auto;
+				margin-top: 24px;
+				padding: 17px 40px 0 40px;
+				background-color: #FF7500;
+				border: 2px solid #fe001a;
+				color: white;
+				font-size: 58px;
+				font-family: 'Patua One', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_nerf:hover {
+				background-color: #0534B8;
+				border: 5px solid #FF7500;
+				color: white;
+				text-shadow: 1px 1px 2px rgba(141, 144, 150, 1);
+			}
+
+			a#btn_harley {
+				display: inline-block;
+				height: 137px;
+				box-sizing: border-box;
+				border-radius: 65px;
+				margin: auto;
+				margin-top: 24px;
+				padding: 17px 40px 0 40px;
+				background-color: black;
+				border: 2px solid #FF7500;
+				color: white;
+				font-size: 32px;
+				font-family: 'Oswald', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_harley:hover {
+				border: 5px solid #FF7500;
+				color: #FF7500;
+				text-shadow: 1px 1px 2px rgba(141, 144, 150, 1);
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+100;Black+3D */
+				background: #7d7e7d; /* Old browsers */
+				background: -moz-linear-gradient(top,  #7d7e7d 0%, #0e0e0e 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(top,  #7d7e7d 0%,#0e0e0e 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to bottom,  #7d7e7d 0%,#0e0e0e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+			}
+
+			a#btn_kors {
+				display: inline-block;
+				height: 97px;
+				box-sizing: border-box;
+				border-radius: 0px;
+				margin: auto;
+				margin-top: 71px;
+				padding: 0px 40px 0px 40px;
+				background-color: white;
+				border: 1px solid black;
+				color: black;
+				font-size: 38px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_kors:hover {
+				background-color: black;
+				color: silver;
+				box-sizing: border-box;
+			}
+
+			a#btn_ideo {
+				display: inline-block;
+				height: 97px;
+				box-sizing: border-box;
+				border-radius: 5px;
+				margin: auto;
+				margin-top: 71px;
+				padding: 0px 40px 0px 40px;
+				background-color: white;
+				border: 3px solid #D03E15;
+				color: #57ACA9;
+				font-size: 38px;
+				font-family: 'Open Sans', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_ideo:hover {
+				background-color: #D03E15;
+				color: white;
+				box-sizing: border-box;
+			}
+
+			a#btn_sardella {
+				display: inline-block;
+				height: 64px;
+				box-sizing: border-box;
+				border-radius: 58px;
+				margin: auto;
+				margin-top: 71px;
+				padding: 0px 40px 0px 40px;
+				background-color: #002BBD;
+				border: 0px solid #D03E15;
+				color: #4AFFCF;
+				font-size: 38px;
+				font-family: 'Oswald', sans-serif;
+				text-decoration: none;
+			}
+
+			a#btn_sardella:hover {
+				background-color: #1F94C2;
+				color: white;
+				box-sizing: border-box;
+				box-shadow: 12px 12px 21px 0px rgba(50, 50, 50, 0.75);
+			}
+
+			a#btn_craigslist {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 0px;
+				margin: auto;
+				margin-top: 71px;
+				padding: 0px 40px 0px 40px;
+				background-color: white;
+				border: 1px solid black;
+				color: #0000EE;
+				font-size: 38px;
+				font-family: serif;
+				text-decoration: none;
+			}
+
+			a#btn_craigslist:hover {
+				background-color: white;
+				color: #551A8B;
+				box-sizing: border-box;
+				box-shadow: 12px 12px 21px 0px rgba(50, 50, 50, 0.75);
+			}
+
+			a#btn_lyft {
+				display: inline-block;
+				height: 62px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 71px;
+				padding: 0px 40px 0px 40px;
+				background-color: #241D37;
+				border: 1px solid black;
+				color: #F500B5;
+				font-size: 38px;
+				font-family: "Open Sans";
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_lyft:hover {
+				background-color: white;
+				color: #F500B5;
+				box-sizing: border-box;
+			}
+
+			a#btn_samsung {
+				display: inline-block;
+				height: 62px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 71px;
+				padding: 0px 40px 0px 40px;
+				background-color: white;
+				border: 1px solid black;
+				color: #0C1991;
+				font-size: 38px;
+				font-family: "Oswald";
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_samsung:hover {
+				background-color: white;
+				color: #F500B5;
+				box-sizing: border-box;
+				box-shadow: 3px 3px 0px 0px rgba(50, 50, 50, 0.75);
+			}
+
+			a#btn_dime {
+				display: inline-block;
+				height: 52px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 71px;
+				padding: 0px 40px 0px 40px;
+				background-color: black;
+				border: 3px solid #940C1A;
+				color: white;
+				font-size: 28px;
+				font-family: "Oswald";
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_dime:hover {
+				background-color: black;
+				color: #D1CDBE;
+				border: 3px solid #940C1A;
+				box-sizing: border-box;
+				box-shadow: 3px 3px 0px 0px rgba(50, 50, 50, 0.75);
+			}
+
+			a#btn_cartoon {
+				display: inline-block;
+				height: 44px;
+				box-sizing: border-box;
+				border-radius: 0px;
+				margin: auto;
+				margin-top: 71px;
+				padding: 0px 40px 0px 40px;
+				background-color: black;
+				border: 2px solid #FFEE00;
+				color: white;
+				font-size: 23px;
+				font-family: "Oswald";
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_cartoon:hover {
+				background-color: #FFEE00;
+				color: black;
+				border: 3px solid black;
+				box-sizing: border-box;
+				font-size: 23px;
+			}
+
+			a#btn_bissinger {
+				display: inline-block;
+				height: 86px;
+				box-sizing: border-box;
+				border-radius: 0px;
+				margin: auto;
+				margin-top: 71px;
+				padding: 0px 40px 0px 40px;
+				background-color: white;
+				border: 7px solid #950844;
+				color: #262317;
+				font-size: 43px;
+				font-family: "Oswald";
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_bissinger:hover {
+				background-color: white;
+				color: #B2861B ;
+				border: 7px solid #B2861B;
+				box-sizing: border-box;
+				
+			}
+
+			a#btn_ofa {
+				display: inline-block;
+				height: 154px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 40px;
+				padding: 0px 40px 0px 40px;
+				background-color: #222226;
+				border: 0px solid #950844;
+				color: #A5A5A8;
+				font-size: 91px;
+				font-family: "Oswald";
+				text-decoration: none;
+			}
+
+			a#btn_ofa:hover {
+				background-color: #222226;
+				color: white ;
+				border: 4px solid #26B3DB;
+				box-sizing: border-box;
+				
+			}
+
+			a#btn_nbc {
+				display: inline-block;
+				height: 101px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 40px;
+				padding: 0px 40px 0px 40px;
+				background-color: black;
+				border: 15px solid #BA061D;
+				color: #E09900;
+				font-size: 44px;
+				font-family: "Oswald";
+				text-decoration: none;
+				font-style: bold;
+			}
+
+			a#btn_nbc:hover {
+				background-color: black;
+				color: #FDE6AC ;
+				border: 15px solid #369939;
+				box-sizing: border-box;
+				
+			}
+
+			a#btn_nike {
+				display: inline-block;
+				height: 124px;
+				box-sizing: border-box;
+				border-radius: 0px;
+				margin: auto;
+				margin-top: 40px;
+				padding: 0px 55px 0px 55px;
+				background-color: white;
+				border: 10px solid #7A7A7A;
+				color: #7A7A7A;
+				font-size: 74px;
+				font-family: "Anton";
+				text-decoration: none;
+				text-shadow: 2px 2px 0px rgba(141, 144, 150, 0.83);
+		
+			}
+
+			a#btn_nike:hover {
+				background-color: #7A7A7A;
+				color: white;
+				border: 10px solid #7A7A7A;
+				box-sizing: border-box;
+			}
+
+			a#btn_botanical {
+				display: inline-block;
+				height: 83px;
+				box-sizing: border-box;
+				border-radius: 0px;
+				margin: auto;
+				margin-top: 40px;
+				padding: 0px 30px 0px 30px;
+				background-color: white;
+				border: 6px solid #355705;
+				color: #355705;
+				font-size: 23px;
+				font-family: "Anton";
+				text-decoration: none;
+			}
+
+			a#btn_botanical:hover {
+				background-color: #F7F3D6;
+				color: #541D42;
+				border: 6px solid #355705;
+				box-sizing: border-box;
+			}
+
+			a#btn_hulk {
+				display: inline-block;
+				height: 53px;
+				box-sizing: border-box;
+				border-radius: 0px;
+				margin: auto;
+				margin-top: 40px;
+				padding: 0px 30px 0px 12px;
+				border: 0px black #355705;
+				color: #000000;
+				font-size: 33px;
+				font-family: "Permanent Marker", cursive;
+				text-decoration: none;
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feb645+42,f1e767+100 */
+				background: #feb645; /* Old browsers */
+				background: -moz-linear-gradient(top,  #feb645 42%, #f1e767 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(top,  #feb645 42%,#f1e767 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to bottom,  #feb645 42%,#f1e767 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feb645', endColorstr='#f1e767',GradientType=0 ); /* IE6-9 */
+
+			}
+
+			a#btn_hulk:hover {
+				background-color: #F7F3D6;
+				color: #F63923;
+				border: 0px solid #355705;
+				box-sizing: border-box;
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feb645+42,f1e767+100 */
+				background: #feb645; /* Old browsers */
+				background: -moz-linear-gradient(top,  #feb645 42%, #f1e767 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(top,  #feb645 42%,#f1e767 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to bottom,  #feb645 42%,#f1e767 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feb645', endColorstr='#f1e767',GradientType=0 ); /* IE6-9 */
+			}
+
+			a#btn_tesla {
+				display: inline-block;
+				height: 220px;
+				box-sizing: border-box;
+				border-radius: 14px;
+				margin: auto;
+				margin-top: 24px;
+				padding: 17px 40px 0 40px;
+				background-color: #867A9F;
+				border: 0px solid #fe001a;
+				color: #fff;
+				font-size: 58px;
+				font-family: 'Lobster', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_tesla:hover {
+				background-color: white;
+				border: 0px solid #fe001a;
+				color: #867A9F;
+				text-shadow: 1px 1px 2px rgba(141, 144, 150, 1);
+
+			}
+
+			a#btn_color {
+				display: inline-block;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 0px;
+				margin: auto;
+				margin-top: 24px;
+				padding: 17px 40px 0 40px;
+				background-color: black;
+				border: 4px solid #1F9FED;
+				color: #DE007B;
+				font-size: 44px;
+				font-family: 'Lobster', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_color:hover {
+				background-color: #FFF000;
+				border: 4px solid #1F9FED;
+				color: #DE007B;
+				text-shadow: 1px 1px 2px rgba(141, 144, 150, 1);
+
+			}
+
+			a#btn_moo {
+				display: inline-block;
+				height: 122px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 24px;
+				padding: 17px 40px 0 40px;
+				background-color: #BDAFE1;
+				border: 4px solid #56D8E2;
+				color: black;
+				font-size: 44px;
+				font-family: "open sans", sans-serif;
+				
+			}
+
+			a#btn_moo:hover {
+				background-color: #BDAFE1;
+				border: 4px solid #56D8E2;
+				color: white;
+				text-shadow: 1px 1px 2px rgba(141, 144, 150, 1);
+
+			}
+
+			a#btn_pottermore{
+				display: inline-block;
+				height: 91px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 24px;
+				padding: 17px 40px 0 40px;
+				background-color: black;
+				border: 0px solid #56D8E2;
+				color: #272727;
+				font-size: 29px;
+				font-family: "Permanent Marker", sans-serif;
+				
+			}
+
+			a#btn_pottermore:hover {
+				background-color: black;
+				border: 0px solid #56D8E2;
+				color: white;
+				text-shadow: 1px 1px 4px rgba(141, 144, 150, 1);
+
+			}
+
+			a#btn_fitbit{
+				display: inline-block;
+				height: 115px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 24px;
+				padding: 17px 40px 0 40px;
+				background-color: white;
+				border: 2px solid #23A2AB;
+				color: #E1215C;
+				font-size: 49px;
+				font-family: "Anton", sans-serif;
+				
+			}
+
+			a#btn_fitbit:hover {
+				background-color: white;
+				border: 2px solid #E1215C;
+				color: #23A2AB;
+				text-shadow: 1px 1px 4px rgba(141, 144, 150, 1);
+
+			}
+
+			a#btn_kitten{
+				display: inline-block;
+				height: 155px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 24px;
+				padding: 17px 40px 0 40px;
+				background-color: white;
+				border: 0px solid #23A2AB;
+				color: #440D0E;
+				font-size: 49px;
+				font-family: "Lobster", sans-serif;
+				
+			}
+
+			a#btn_kitten:hover {
+				background-color: white;
+				border: 2px solid #440D0E;
+				color: #23A2AB;
+				text-shadow: 1px 1px 4px rgba(141, 144, 150, 1);
+
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</style>
+	</head>
+	<body>
+		
+		<div id="main_content">
+
+			<h1>Button Styling &mdash; James Fawcett</h1>
+			
+			<div class="button_container">
+				<a href="http://www.coca-cola.com/" target="_blank" id="btn_coke">Coca-Cola</a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.apple.com/" target="_blank" id="btn_apple">Apple.</a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.ibm.com/us-en/" target="_blank" id="btn_ibm">IBM</a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://nerf.hasbro.com/en-us" target="_blank" id="btn_nerf">NERF</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.harley-davidson.com/content/h-d/en_US/home.html" target="_blank" id="btn_harley">Harley Davidson</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.michaelkors.com" target="_blank" id="btn_kors">Michael Kors</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://ideo.org" target="_blank" id="btn_ideo">Ideo</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://sardellastl.com/" target="_blank" id="btn_sardella">SARDELLA</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://stlouis.craigslist.org/" target="_blank" id="btn_craigslist">Craigslist</a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.lyft.com/" target="_blank" id="btn_lyft">Lyft</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.samsung.com/us/" target="_blank" id="btn_samsung">SAMSUNG</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.dimecitycycles.com/" target="_blank" id="btn_dime">Dime City Cycles</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.cartoonnetwork.com/" target="_blank" id="btn_cartoon">CARTOON NETWORK</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.bissingers.com/" target="_blank" id="btn_bissinger">Bissinger's</a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.ofa.us/" target="_blank" id="btn_ofa">OFA</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.nbc.com/the-tonight-show" target="_blank" id="btn_nbc">NBC</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.nike.com/us/en_us/" target="_blank" id="btn_nike">Nike</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.missouribotanicalgarden.org/" target="_blank" id="btn_botanical">Missouri Botanical Garden</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://hulkhogan.com/" target="_blank" id="btn_hulk">Hulk Hogan</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.teslamotors.com/" target="_blank" id="btn_tesla">Tesla</a>
+			</div>
+			
+			<div class="button_container">
+				<a href="http://thecolorrun.com/" target="_blank" id="btn_color">Color Run</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.moo.com/us/" target="_blank" id="btn_moo">MOO</a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.pottermore.com/" target="_blank" id="btn_pottermore">Pottermore</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.fitbit.com/home" target="_blank" id="btn_fitbit">fitbit</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.explodingkittens.com/" target="_blank" id="btn_kitten">Exploding Kittens</a>
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>	
+
+	</body>
+</html>
