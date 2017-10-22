@@ -1,0 +1,235 @@
+/*html{
+	background: url("../lyric2.jpg") no-repeat center center fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    height:100%;
+}
+
+body{
+	margin:0;
+	height:100%;
+	width: 100%;
+	display: inline-block;
+
+}
+
+div{
+	height: 100%;
+}
+img#leftchain{
+	height:100%;
+	position: relative;
+	right:300px;
+
+}
+img#leftchain2{
+	height:100%;
+	position: relative;	
+	left: -777px;
+}
+
+img#leftchain3{
+	height:100%;
+	position: relative;
+	top: -803px;
+	right:166px;
+}
+img#leftchain4{
+	height:100%;
+	position: relative;
+	top: -803px;
+	right:679px;
+}
+
+img#leftchain5{
+	height:100%;
+	position: relative;
+	top: -803px;
+	right:679px;
+}
+
+h1, h2{
+	font-family: "Knewave";
+	position: absolute;
+	color: white;
+}
+
+h1{
+	font-size: 3.5em;
+}
+
+section#headers {
+	width: 100%;
+	display: inline-block;
+	width: 1434px;
+	height: 1434px;
+	margin: auto;
+	position: absolute;
+	top: 125px;
+	left: 284px;
+}
+*/
+html, body, p{
+	margin: 0px;
+	padding: 0px;
+}
+
+html{
+	height: 100%;
+	width: 100%;
+}
+
+div#container{
+	background-color: red;
+	width: 800px;
+	height: 800px;
+	margin: auto;
+	position: relative;
+	background-image: url("../lyric2.jpg");
+	background-size: cover;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	
+}
+
+div#title1{
+	/*background-color: blue;*/
+	height: 139px;
+	width: 179px;
+	position: absolute;
+	top: 121px;
+	left: 360px;
+	color: white;
+	font-family: "Knewave";
+}
+
+iframe{
+	height: 0;
+	visibility: 0;
+	width:0;
+	display: inline-block;
+	margin: 0px;
+	position: fixed;
+}
+
+div#sidebars2{
+	/*background-color: blue;*/
+	height: 139px;
+	width: 179px;
+	position: absolute;
+	top: 395px;
+	left: 35px;
+	color: white;
+	font-family: "Knewave";
+}
+
+h1.sidebars2{
+	font-family: "Knewave";
+	color: rgba(203, 29, 39, .3);
+	margin-bottom: -18px;
+	font-size:134px;
+	transform: rotate(-90deg);
+}
+
+div#title2{
+	/*background-color: blue;*/
+	height: 139px;
+	width: 179px;
+	position: absolute;
+	top: 211px;
+	left: 360px;
+	color: white;
+	font-family: "Knewave";
+}
+
+div#columnright{
+	/*background-color: green;*/
+	height: 409px;
+	width: 177px;
+	position: absolute;
+	top: 176px;
+	right: 70px;
+	font-family: "Germania One";
+	color: rgb(203,39,29);
+	font-size: 10px;
+}
+
+div#columnleft{
+	/*background-color: purple;*/
+	height: 400px;
+	width: 177px;
+	position: absolute;
+	top: 261px;
+	right: 261px;
+	font-family: "Germania One";
+	color: rgb(203,39,29);
+	font-size: 10px;
+}
+
+h1{
+	font-family: "Knewave";
+	color: rgb(214,215,217);
+	margin-bottom: -18px;
+	font-size:50px;
+}
+ 
+h2{
+	font-family: "Knewave";
+	color: rgba(214,215,217,.85);
+	font-size: 17px;
+}
+
+h2#MYCHAIN{
+	font-size: 17.2px;
+}
+
+div.backgroundchains{
+	top: 0px;
+	right: 0px;
+	bottom:0;
+	left:0;
+	background-image: url("../goldchain.gif");
+	background-size: auto 1000px;
+	position: absolute;
+}
+
+div#background1{
+
+}
+
+div#background2{
+	background-position-x:83px;
+}
+
+div#background3{
+	background-position-x:166px;
+}
+
+div#background4{
+	background-position-x:249px;
+}
+
+div#background5{
+	background-position-x:332px;
+}
+
+div#background6{
+	background-position-x:415px;
+}
+
+div#background7{
+	background-position-x:498px;
+}
+
+div#background8{
+	background-position-x:581px;
+}
+
+div#background9{
+	background-position-x:664px;
+}
