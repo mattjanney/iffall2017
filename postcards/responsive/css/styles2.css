@@ -1,0 +1,114 @@
+body{
+	width: 100%;
+	margin: auto;
+	background-image: url("../batcountry.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+a{
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+
+
+
+div#stay{
+	
+	position: absolute;
+	width: 400px;
+	height: 100px;
+	top: 56px;
+	left:600px;
+	font-family: "Rock Salt";
+	font-size: 1.9em;
+	color: rgb(243, 110, 46);
+}
+
+
+div#bat{
+	
+	width: 600px;
+	height: 100px;
+	position: absolute;
+	top: 97px;
+	left: 600px;
+	font-family: "Rock Salt";
+	font-size: 3em;
+	color: black;
+}
+
+div#hunter{
+	
+	width: 300px;
+	height: 100px;
+	position: absolute;
+	top: 187px;
+	left: 627px;
+	font-family: "Rock Salt";
+	font-size: 1em;
+	color: rgb(243, 110, 46);
+}
+
+
+@media screen and (max-width: 1192px){
+	div#stay{
+		font-size: 1em;
+		top: 67px;
+	}
+	div#bat{
+		font-size: 2em;
+	}
+	div#hunter{
+		top: 159px;
+	}
+
+}
+
+@media screen and (max-width: 994px){
+	div#stay{
+		font-size: 1em;
+		top: 12px;
+		left: 59px;
+	}
+	div#bat{
+		font-size: 2em;
+		top: -12px;
+		color: white;
+		left: 271px;
+	}
+	div#hunter{
+		top: 51px;
+		left: 38px;
+		font-size: .8em;
+	}
+
+}
+
+@media screen and (max-width: 669px){
+	div#stay{
+		font-size: 1.3em;
+		top: 22px;
+		left: 21px;
+		color: white;
+	}
+	div#bat{
+		font-size: 1.8em;
+		top: 88px;
+		color: black;
+		left: 30px;
+		width: 300px;
+		line-height: 41px;
+	}
+	div#hunter{
+		top: 233px;
+		left: 10px;
+		font-size: .8em;
+		color: white;
+	}

@@ -1,0 +1,105 @@
+body{
+	width: 100%;
+	margin: auto;
+	background-image: url("../toorare.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+a{
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+
+
+
+div#Live{
+	
+	position: absolute;
+	width: 400px;
+	height: 100px;
+	top: 56px;
+	left:700px;
+	font-family: "Rock Salt";
+	font-size: 1.9em;
+	color: rgb(243, 110, 46);
+}
+
+div#rare{
+	
+	width: 300px;
+	height: 100px;
+	position: absolute;
+	top: 120px;
+	left: 700px;
+	font-family: "Rock Salt";
+	font-size: 1.9em;
+	color: rgb(243, 110, 46);
+}
+
+div#hunter{
+	
+	width: 200px;
+	height: 100px;
+	position: absolute;
+	top: 200px;
+	left: 700px;
+	font-family: "Rock Salt";
+	font-size: 1em;
+	color: rgb(243, 110, 46);
+}
+
+
+@media screen and (max-width: 1036px){
+	div#Live{
+		left: 500px;
+	}
+	div#rare{
+		left: 500px;
+	}
+	div#hunter{
+		left: 500px;
+	}
+}
+
+@media screen and (max-width: 833px){
+	div#Live{
+		left: 300px;
+		font-size: 1.5em;
+	}
+	div#rare{
+		left: 300px;
+		font-size: 1.5em;
+		top: 100px;
+	}
+	div#hunter{
+		left: 300px;
+		font-size: .8em;
+		top: 150px;
+	}
+}
+
+@media screen and (max-width: 567px){
+	div#Live{
+		left: 156px;
+		font-size: 1em;
+		top: 9px;
+	}
+	div#rare{
+		left: 156px;
+		font-size: 1em;
+		top: 47px;
+	}
+	div#hunter{
+		left: 178px;
+		font-size: .5em;
+		top: 81px;
+		color: white;
+	}
+}
