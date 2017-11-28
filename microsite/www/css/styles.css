@@ -1,0 +1,211 @@
+body{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	font-family: 'PT Sans';
+
+}
+
+div#background{
+	background-image: url("../background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 1500px;
+	height: 4562px;
+}
+
+div#section1{
+	/*background-color: rgba(255,0,0,.25);*/
+	width: 100%;
+	height: 1133px;
+}
+
+div#section2{
+	/*background-color: rgba(0,255,0,.25);*/
+	width: 100%;
+	height: 822px;
+}
+
+div#section3{
+	/*background-color: rgba(0,0,255,.25);*/
+	width: 100%;
+	height: 1189px;
+}
+
+div#section4{
+	/*background-color: rgba(255,255,0,.25);*/
+	width: 100%;
+	height: 543px;
+}
+
+div#section5{
+	/*background-color: rgba(0,255,255,.25);*/
+	width: 100%;
+	height: 882px;
+}
+
+div#introcopy{
+	/*background-color: rgba(0,255,0,.5);*/
+	width: 300px;
+	height: 406px;
+	position: absolute;
+	top: 594px;
+	font-family: 'PT Sans';
+	font-size: 6.7pt;
+	text-align: justify;
+	left: 200px;
+
+}
+
+div#Copy1{
+	position: absolute;
+	/*background-color: rgba(0,255,0,.5);*/
+	left: 592px;
+	width: 555px;
+	height: 508px;
+	text-align: right;
+	font-size: 9pt;
+	top: 1145px;
+}
+
+div#Yves{
+	position: absolute;
+	/*background-color: rgba(0,255,0,.5);*/
+	top: 1276px;
+	left: 1171px;
+	height: 300px;
+	width: 150px;
+	font-size: 59.5px;
+
+}
+
+div#Copy2{
+	position: absolute;
+	/*background-color: rgba(0,255,0,.5);*/
+	top: 2385px;
+	left: 671px;
+	height: 322px;
+	width: 806px;
+	color: black;
+	font-size: 9pt;
+}
+
+div#Copy3{
+	position: absolute;
+	/*background-color: rgba(0,255,0,.5);*/
+	height: 225px;
+	width: 828px;
+	color: black;
+	font-size: 9pt;
+}
+
+div#Copy4{
+	position: absolute;
+	/*background-color: rgba(0,255,0,0.5);*/
+	height: 847px;
+	width: 477px;
+	top: 3700px;
+	left: 734px;
+	color: white;
+	font-size: 9pt;
+	text-align: right;
+}
+
+div#Header{
+	position: absolute;
+	background-color: rgba(0,255,0,0.5);
+	height: 31px;
+	top: 3700px;
+	left: 4px;
+	width: 223px;
+}
+
+div#Sources{
+	position: absolute;
+	/*background-color: rgba(0,255,0,0.5);*/
+	top: 3685px;
+	left: 1259px;
+	width: 202px;
+	height: 847px;
+	font-size: 13pt;
+	color:black;
+}
+
+a#RebrandLink{
+	position: absolute;
+    width: 150px;
+    height: 19px;
+    background-color: black;
+    top: 594;
+    left: 36px;
+    font-family: 'PT Sans';
+    font-size: 11pt;
+    color: white;
+    text-decoration: none;
+    text-align: right;
+}
+
+a#FashionLink{
+	position: absolute;
+    width: 150px;
+    height: 19px;
+    top: 621px;
+    left: 36px;
+    font-family: 'PT Sans';
+    font-size: 11pt;
+    color: black;
+    text-decoration: none;
+    text-align: right;
+}
+
+a#ArtLink{
+	position: absolute;
+    width: 150px;
+    height: 19px;
+    top: 648px;
+    left: 36px;
+    font-family: 'PT Sans';
+    font-size: 11pt;
+    color: black;
+    text-decoration: none;
+    text-align: right;
+}
+
+a#BandLink{
+	position: absolute;
+    width: 170px;
+    height: 19px;
+    top: 675px;
+    left: 16px;
+    font-family: 'PT Sans';
+    font-size: 11pt;
+    color: black;
+    text-decoration: none;
+    text-align: right;
+}
+
+a#SourceLink{
+	position: absolute;
+    width: 170px;
+    height: 19px;
+    top: 702px;
+    left: 16px;
+    font-family: 'PT Sans';
+    font-size: 11pt;
+    color: black;
+    text-decoration: none;
+    text-align: right;
+}
+
+a#BackToTopLink{
+	position: fixed;
+    width: 170px;
+    height: 19px;
+    top: 702px;
+   	right: 44px;
+    font-family: 'PT Sans';
+    font-size: 11pt;
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    text-align: center;
