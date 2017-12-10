@@ -1,0 +1,102 @@
+body{
+
+	margin:0;
+}
+
+
+a#lyric{
+	background-color: rgba(0,255,0,.25);
+    background-image: url(../lyric.png);
+    background-size: contain;
+    width: 400px;
+    height: 243px;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 300;
+    left: 20;
+}
+
+a#responsive{
+	background-color: rgba(255,0,0,.25);
+    background-image: url(../responsive.png);
+    background-size: contain;
+    width: 400px;
+    height: 243px;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 39px;
+    left: 20px;
+}
+
+a#microsite{
+	background-color: rgba(0,0,255,.25);
+    background-image: url(../microsite.png);
+    background-size: contain;
+    width: 400px;
+    height: 243px;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 561;
+    left: 20;
+    color: black;
+}
+
+div#titling{
+	width: 400px;
+	height: 400px;
+	font-family: 'Spectral';
+	font-size: 30pt;
+	position: fixed;
+	left: 500px;
+	top: 30px;
+	letter-spacing: 3;
+
+}
+
+div#subtitling{
+	width: 400px;
+    height: 400px;
+    font-family: 'Spectral';
+    font-size: 10pt;
+    top: 82px;
+    position: fixed;
+    left: 500px;
+    line-height: .8;
+    letter-spacing: 1.1;
+}
+
+div#a{
+	width: 100px;
+	height: 100px;
+	font-family: 'Spectral';
+	font-size: 10pt;
+	letter-spacing: 1.1pt;
+	position: absolute;
+	top: 224px;
+	left: 408px;
+}
+div#b{
+	width: 100px;
+	height: 100px;
+	font-family: 'Spectral';
+	font-size: 10pt;
+	letter-spacing: 1.1pt;
+	position: absolute;
+	top: 224px;
+	left: 408px;
+}
+div#c{
+	width: 100px;
+	height: 100px;
+	font-family: 'Spectral';
+	font-size: 10pt;
+	letter-spacing: 1.1pt;
+	position: absolute;
+	top: 224px;
+	left: 408px;
+}
+
+a{
+	width: 400;
+	height: 243;
+}
