@@ -1,0 +1,738 @@
+html, body{
+	width: 100%;
+	height:100%;
+	background-image: url("water.jpg");
+	background-size: contain;
+
+}
+
+html.wood{
+	background-image: url("wood.jpg");
+
+}
+
+body.wood{
+	background-image: url("wood.jpg")
+}
+
+html.rock{
+	background-image: url("polygon.jpg");
+}
+
+body.rock{
+	background-image: url("polygon.jpg")
+}
+
+html.oil{
+	background-image: url("oil.jpg");
+}
+
+body.oil{
+	background-image: url("oil.jpg")
+}
+
+html.grafitti{
+	background-image: url("grafitti.jpg");
+}
+
+body.grafitti{
+	background-image: url("grafitti.jpg")
+}
+
+.skrollr-container{
+	width: 100%;
+	height:100%;
+	overflow:hidden;
+}
+
+.sections{
+	position:fixed;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	
+}
+
+.section{
+	position:absolute;
+	top:0;
+	left:0;
+	width:50%;
+	height:50%;
+}
+
+.one{
+	background-color: cyan;
+	opacity: .5;
+}
+
+.two{
+	background-color: magenta;
+	opacity: .5;
+
+}
+.three{
+	background-color: purple;
+	opacity: .5;
+	
+}
+.four{
+	background-color: pink;
+	opacity: .5;
+	
+}
+
+
+#helper{
+	/*display:none;*/
+	position:absolute;
+	left:0;
+	top:0;
+	height:400%;
+	width:20px;
+}
+
+.marker{
+	width:100%;
+	height:25%;
+}
+
+.spin{
+	position:fixed;
+	width:25%;
+	height:20px;
+	top:33%;
+	left:33%;
+	background-color: cyan;
+}
+
+.block{
+	position:fixed;
+	width:25%;
+	height:80px;
+	left: 50%;
+	background-color: red;
+	background-blend-mode: multiply;
+	background-image: url("water.jpg");
+}
+
+.block3{
+	position:fixed;
+	width:25%;
+	height:80px;
+	left: 0%;
+	background-color: red;
+	background-blend-mode: color-burn;
+	background-image: url("water.jpg");
+}
+
+.block6{
+	position:fixed;
+	width:100%;
+	height:5%;
+	left: 0%;
+	top: 50%;
+	background-color: pink;
+	background-blend-mode: darken;
+	background-image: url("water.jpg");
+}
+
+.block7{
+	position:fixed;
+	width:100%;
+	height:5%;
+	left: 0%;
+	top: 50%;
+	background-color: green;
+	background-blend-mode: exclusion;
+	background-image: url("water.jpg");
+	opacity: .8;
+}
+
+.block8{
+	position:fixed;
+	width:50%;
+	height:50%;
+	left: 0%;
+	top: 0%;
+	background-color: magenta;
+	background-blend-mode: exclusion;
+	background-image: url("water.jpg");
+	opacity: .8;
+}
+
+.block11a{
+	position:fixed;
+	width:70%;
+	height:10%;
+	left: -30%;
+	top: 50%;
+	background-color: purple;
+	background-blend-mode: overlay;
+	background-image: url("water.jpg");
+	opacity: 1;
+}
+
+.block11b{
+	position:fixed;
+	width:70%;
+	height:10%;
+	left: 130%;
+	top: 50%;
+	background-color: pink;
+	background-blend-mode: exclusion;
+	background-image: url("water.jpg");
+	opacity: .5;
+}
+
+.block13{
+	position:fixed;
+	width:70%;
+	height:10%;
+	left: 130%;
+	top: 50%;
+	background-color: green;
+	background-blend-mode: luminosity;
+	background-image: url("water.jpg");
+	opacity: .5;
+}
+
+.block14{
+	position:fixed;
+	width:70%;
+	height:10%;
+	left: 130%;
+	top: 50%;
+	background-color: red;
+	background-blend-mode: multiply;
+	background-image: url("water.jpg");
+	opacity: .5;
+}
+
+.block15{
+	position:fixed;
+	width:70%;
+	height:10%;
+	left: 130%;
+	top: 50%;
+	background-color: red;
+	background-blend-mode: multiply;
+	background-image: url("wood.jpg");
+	opacity: 1;
+}
+
+.block15b{
+	position:fixed;
+	width:70%;
+	height:100%;
+	left: 130%;
+	top: 0%;
+	background-color: blue;
+	background-blend-mode: exclusion;
+	background-image: url("wood.jpg");
+	opacity: .5;
+}
+
+.block16{
+	position:fixed;
+	width:70%;
+	height:10%;
+	left: 130%;
+	top: 50%;
+	background-color: red;
+	background-blend-mode: exclusion;
+	background-image: url("wood.jpg");
+	opacity: 1;
+}
+
+.block17{
+	position:fixed;
+	width:300px;
+	height: 300px;
+	background-color: red;
+	background-blend-mode: hard-light;
+	background-image: url("wood.jpg");
+	opacity: 1;
+}
+
+.block18{
+	position:fixed;
+	width:300px;
+	height: 300px;
+	background-color: green;
+	background-blend-mode: soft-light;
+	background-image: url("wood.jpg");
+	opacity: .6;
+}
+
+.block19{
+	position:fixed;
+	width:300px;
+	height: 300px;
+	background-color: purple;
+	background-blend-mode: soft-light;
+	background-image: url("wood.jpg");
+	opacity: 1;
+}
+
+.block20{
+	position:fixed;
+	width:100%;
+	height: 20%;
+	top:0%;
+	background-color: purple;
+	background-blend-mode: soft-light;
+	background-image: url("wood.jpg");
+	opacity: 1;
+}
+
+.block20b{
+	position:fixed;
+	width:100%;
+	height: 20%;
+	top:40%;
+	background-color: purple;
+	background-blend-mode: soft-light;
+	background-image: url("wood.jpg");
+	opacity: 1;
+}
+
+.block20c{
+	position:fixed;
+	width:100%;
+	height: 20%;
+	top:60%;
+	background-color: purple;
+	background-blend-mode: soft-light;
+	background-image: url("wood.jpg");
+	opacity: 1;
+}
+
+.block20d{
+	position:fixed;
+	width:100%;
+	height: 20%;
+	top:80%;
+	background-color: purple;
+	background-blend-mode: soft-light;
+	background-image: url("wood.jpg");
+	opacity: 1;
+}
+
+.block23{
+	position:fixed;
+	width:100%;
+	height: 10%;
+	top:0%;
+	background-color: purple;
+	background-blend-mode: soft-light;
+	background-image: url("wood.jpg");
+	opacity: 1;
+}
+
+.block23b{
+	position:fixed;
+	width:100%;
+	height: 10%;
+	top:20%;
+	background-color: pink;
+	background-blend-mode: soft-light;
+	background-image: url("wood.jpg");
+	opacity: 1;
+}
+
+.block23c{
+	position:fixed;
+	width:100%;
+	height: 10%;
+	top:40%;
+	background-color: purple;
+	background-blend-mode: soft-light;
+	background-image: url("wood.jpg");
+	opacity: 1;
+}
+
+.block23d{
+	position:fixed;
+	width:100%;
+	height: 10%;
+	top:60%;
+	background-color: pink;
+	background-blend-mode: soft-light;
+	background-image: url("wood.jpg");
+	opacity: 1;
+}
+
+
+.block25{
+	position:fixed;
+	width:100%;
+	height: 10%;
+	top:0%;
+	background-color: purple;
+	background-blend-mode: soft-light;
+	background-image: url("wood.jpg");
+	opacity: 1;
+}
+
+.block25b{
+	position:fixed;
+	width:100%;
+	height: 10%;
+	top:20%;
+	background-color: pink;
+	background-blend-mode: color-burn;
+	background-image: url("wood.jpg");
+	opacity: 1;
+}
+
+.block25c{
+	position:fixed;
+	width:100%;
+	height: 10%;
+	top:40%;
+	background-color: blue;
+	background-blend-mode: exclusion;
+	background-image: url("wood.jpg");
+	opacity: 1;
+}
+
+.block25d{
+	position:fixed;
+	width:100%;
+	height: 10%;
+	top:60%;
+	background-color: pink;
+	background-blend-mode: hard-light;
+	background-image: url("wood.jpg");
+	opacity: 1;
+}
+
+
+.block28{
+	position:fixed;
+	width:100%;
+	height: 10%;
+	top:0%;
+	background-color: purple;
+	background-blend-mode: overlay;
+	background-image: url("wood.jpg");
+	opacity: 1;
+}
+
+.block28b{
+	position:fixed;
+	width:100%;
+	height: 10%;
+	top:20%;
+	background-color: pink;
+	background-blend-mode: overlay;
+	background-image: url("wood.jpg");
+	opacity: 1;
+}
+
+.block28c{
+	position:relative;
+	width:100%;
+	height: 10%;
+	top:40%;
+	background-color: blue;
+	background-blend-mode: exclusion;
+	background-image: url("wood.jpg");
+	opacity: 1;
+}
+
+.block28d{
+	position:absolute;
+	width:100%;
+	height: 10%;
+	top:60%;
+	background-color: pink;
+	background-blend-mode: exclusion;
+	background-image: url("water.jpg");
+	opacity: 1;
+}
+
+.block29{
+	position:fixed;
+	width:100%;
+	height: 100%;
+	top:0%;
+	background-color: pink;
+	background-blend-mode: overlay;
+	background-image: url("water.jpg");
+	opacity: .8;
+}
+
+.block31{
+	position:fixed;
+	width:100%;
+	height: 90%;
+	top:0%;
+	left: 30%;
+	background-color: pink;
+	opacity: .8;
+}
+
+.block31{
+	position:fixed;
+	width:15%;
+	height: 15%;
+	top: 50%;
+	left: 30%;
+	background-color: pink;
+	opacity: .8;
+}
+
+.block31b{
+	position:fixed;
+	width:15%;
+	height: 15%;
+	top: 50%;
+	left: 70%;
+	background-color: blue;
+	opacity: .;
+}
+
+.block35{
+	position:fixed;
+	width:20%;
+	height: 20%;
+	top: 30%;
+	left: 30%;
+	background-color: green;
+	background-blend-mode: color-burn;
+	opacity: .5;
+}
+
+.block38{
+	position:fixed;
+	width:20%;
+	height: 20%;
+	top: 30%;
+	left: 30%;
+	background-blend-mode: color-burn;
+	background-image: url("rockcolor.gif");
+	opacity: .5;
+}
+ 
+ #other{
+ 	background-image: url("water.jpg");
+ 	background-blend-mode: multiply;
+ }
+
+ .block39{
+	position:fixed;
+	width:20%;
+	height: 20%;
+	top: 30%;
+	left: 30%;
+	background-blend-mode: difference;
+	background-image: url("water.jpg");
+	opacity: .5;
+}
+
+.block40{
+	position:fixed;
+	width:20%;
+	height: 20%;
+	top: 30%;
+	left: 30%;
+	background-blend-mode: difference;
+	background-image: url("polygon.jpg");
+	opacity: .5;
+}
+
+.block41{
+	position:fixed;
+	width:10%;
+	height: 10%;
+	top: 0%;
+	left: 0%;
+	background-blend-mode: difference;
+	background-image: url("polygon.jpg");
+	background-color: cyan;
+	opacity: .5;
+}
+
+.block41b{
+	position:fixed;
+	width:10%;
+	height: 10%;
+	top: 90%;
+	left: 90%;
+	background-blend-mode: multiply;
+	background-image: url("polygon.jpg");
+	background-color: cyan;
+	opacity: .5;
+}
+
+.block46{
+	position:fixed;
+	width:10%;
+	height: 10%;
+	top: 0%;
+	left: 0%;
+	background-blend-mode: overlay;
+	background-image: url("polygon.jpg");
+	background-color: cyan;
+	opacity: .5;
+}
+
+.block46b{
+	position:fixed;
+	width:10%;
+	height: 10%;
+	top: 90%;
+	left: 90%;
+	background-blend-mode: multiply;
+	background-image: url("polygon.jpg");
+	background-color: magenta;
+	opacity: .5;
+}
+
+.block50{
+	position:fixed;
+	width:10%;
+	height: 10%;
+	top: 40%;
+	left: 40%;
+	background-blend-mode: overlay;
+	background-image: url("polygon.jpg");
+	background-color: cyan;
+	opacity: .5;
+}
+
+.block50b{
+	position:fixed;
+	width:10%;
+	height: 10%;
+	top: 40%;
+	left: 40%;
+	background-blend-mode: multiply;
+	background-image: url("polygon.jpg");
+	background-color: magenta;
+	opacity: .5;
+}
+
+.block51{
+	position:fixed;
+	width:100%;
+	height: 10%;
+	top: 40%;
+	left: 40%;
+	background-blend-mode: overlay;
+	background-image: url("polygon.jpg");
+	background-color: cyan;
+	opacity: .5;
+}
+
+.block51b{
+	position:fixed;
+	width:100%;
+	height: 10%;
+	top: 40%;
+	left: 40%;
+	background-blend-mode: multiply;
+	background-image: url("polygon.jpg");
+	background-color: magenta;
+	opacity: .5;
+}
+
+.block54{
+	position:fixed;
+	width:100%;
+	height: 10%;
+	top: 40%;
+	left: 40%;
+	background-blend-mode: lighten;
+	background-image: url("oil.jpg");
+	background-color: purple;
+	opacity: .5;
+}
+
+.block54b{
+	position:fixed;
+	width:100%;
+	height: 10%;
+	top: 40%;
+	left: 40%;
+	background-blend-mode: multiply;
+	background-image: url("oil.jpg");
+	background-color: pink;
+	opacity: .5;
+}
+
+.block57{
+	position:absolute;
+	width:100%;
+	height: 10%;
+	top: 40%;
+	left: 40%;
+	background-blend-mode: lighten;
+	background-image: url("oil.jpg");
+	background-color: purple;
+	opacity: 1;
+}
+
+.block57b{
+	position:absolute;
+	width:100%;
+	height: 10%;
+	top: 40%;
+	left: 40%;
+	background-blend-mode: multiply;
+	background-image: url("oil.jpg");
+	background-color: pink;
+	opacity: 1;
+}
+
+.block60{
+	position:fixed;
+	width:100%;
+	height: 10%;
+	top: 40%;
+	left: 40%;
+	background-blend-mode: lighten;
+	background-image: url("oil.jpg");
+	background-color: white;
+	opacity: .8;
+}
+
+.block60b{
+	position:fixed;
+	width:100%;
+	height: 10%;
+	top: 40%;
+	left: 40%;
+	background-blend-mode: color-burn;
+	background-image: url("oil.jpg");
+	background-color: pink;
+	opacity: .7;
+}
+
+.block61{
+	position:fixed;
+	width:100%;
+	height: 0%;
+	top: 0%;
+	left: 0%;
+	background-blend-mode: hard-light;
+	background-image: url("grafitti.jpg");
+	background-color: black;
+	opacity: .8;
+}
+
+.block63{
+	position:fixed;
+	width:100%;
+	height: 0%;
+	top: 0%;
+	left: 0%;
+	background-blend-mode: color;
+	background-image: url("grafitti.jpg");
+	background-color: pink;
+	opacity: .8;
+}
+

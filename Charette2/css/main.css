@@ -1,0 +1,74 @@
+html, body{
+	width: 100%;
+	height:100%;
+
+}
+
+.skrollr-container{
+	width: 100%;
+	height:100%;
+	overflow:hidden;
+}
+
+.sections{
+	position:fixed;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+}
+
+.section{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:50%;
+
+}
+
+.box{
+	position:relative;
+	top:40%;
+	left:50%;
+	width:200px;
+	height:200px;
+	background-color: yellow;
+}
+
+#section1{
+	background-color: black;
+}
+#section2{
+	background-color: red;
+	top:50%;
+}
+
+.next{
+	position:absolute;
+	bottom:1%;
+	right:1%;
+}
+	
+
+#helper{
+	/*display:none;*/
+	position:absolute;
+	left:0;
+	top:0;
+	height:1000%;
+	width:20px;
+}
+
+.marker{
+	width:100%;
+	height:10%;
+	border: 2px solid white;
+}
+
+
+
+
+
+
+
